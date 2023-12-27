@@ -1,10 +1,12 @@
 import { Home, Pizza, Utensils } from "lucide-react";
-import NavLink from "./nav-link";
 import { Separator } from "./separator";
 import { ThemeToggle } from "./theme/theme-toggle";
 import AccountMenu from "./account-menu";
+import NavLink from "./nav-link";
 
 export default function Header() {
+
+
   return (
     <div className="border-b">
       <div className="flex h-16 items-center gap-6 px-6">
